@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_10</title>
+    <link rel="stylesheet" href="./P10css.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="start">
+      <div class="dream-house"><p>Get your dream house in a week.</p></div>
+      <div class="xmark">
+        <i class="fa-solid fa-xmark" style="color: #ffffff"></i>
+      </div>
+    </div>
+    <!-- nav bar -->
+    <div class="nav">
+      <div class="nav-container">
+        <div class="nav-left">
+          <svg>
+            <rect
+              width="32px"
+              height="32px"
+              fill="rgba(207, 111, 73, 1)"
+              radius="10px"
+            />
+          </svg>
+          <h4 class="nav-logo">Realco</h4>
+        </div>
+        <div class="nav-right">
+          <div class="options">
+            <a class="home" href="">Home</a>
+            <div class="property">
+              <p>Properties</p>
+              <i
+                class="fa-solid fa-chevron-down"
+                style="color: rgba(34, 34, 34, 1)"
+              ></i>
+            </div>
+            <a class="about" href="">About</a>
+            <a class="contact" href="">Contact</a>
+            <div class="search-blok">
+              <input
+                class="search"
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search"
+              />
+              <div class="search-icon">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #080808"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="cart-blok">
+              <i class="fa-solid fa-bag-shopping" style="color: #080808"></i>
+              <a class="cart" href="">Cart</a>
+            </div>
+            <button class="find-button" type="submit">Find a property</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Nav bar -->
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-left">
+        <img class="down-stairs" src="./Images/Vectordownstair.png" alt="" />
+        <img
+          class="bottom-stairs"
+          src="./Images/Vectorbottomstair.png"
+          alt=""
+        />
+        <div class="text-box">
+          <p class="find-your-dp">Find your dream place</p>
+          <h3>Find house for your family in minutes</h3>
+          <p class="hero-descript">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            amet? Perferendis laudantium iure magnam tenetur velit ullam
+            consequuntur autem delectus.
+          </p>
+          <div class="text-box-input">
+            <div class="search-bar">
+              <input
+                class="search-bar-input"
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Search"
+              />
+              <div class="search-bar-icon">
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #080808"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <button class="search-bar-button">Find property</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img class="hero-right" src="./Images/IMAGESOFA.png" alt="#" />
+      </div>
+    </div>
+    <!-- Body -->
+    <div class="container">
+      <!-- Logo nav -->
+      <div class="logo-nav">
+        <div class="logo-nav-text">
+          <p>As seen on the world's best magazines and media</p>
+        </div>
+        <div class="logo-nav-options">
+          <img class="logo1" src="./Images/IMAGElogo1.png" alt="" />
+          <img src="./Images/IMAGElogo2.png" alt="" />
+          <img src="./Images/IMAGElogo3.png" alt="" />
+          <img src="./Images/IMAGElogo4.png" alt="" />
+          <img src="./Images/IMAGElogo5.png" alt="" />
+        </div>
+      </div>
+      <div class="how-it-works">
+        <h2>How it works</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut animi
+          dolores molestiae ea, neque tempore.
+        </p>
+        <div class="blok-how">
+          <div class="find-property">
+            <img src="./Images/Frameuyicon.png" alt="#" />
+            <h3>Find property</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              nihil cumque adipisci deserunt totam iusto.
+            </p>
+          </div>
+          <div class="find-property">
+            <img src="./Images/Framepapericon.png" alt="#" />
+            <h3>Make a deal</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              nihil cumque adipisci deserunt totam iusto.
+            </p>
+          </div>
+          <div class="find-property">
+            <img src="./Images/Framekeyicon.png" alt="#" />
+            <h3>Get your keys</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              nihil cumque adipisci deserunt totam iusto.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- the best houses for family comfort -->
+      <div class="family-comfort">
+        <div class="family-comfort-text">
+          <div class="comfort-firts">
+            <p>Comfort first</p>
+          </div>
+          <h2 class="generic-title">The best houses for family comfort</h2>
+          <p class="family-descript">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perferendis, eveniet? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Necessitatibus, amet?
+          </p>
+          <div class="family-buttons">
+            <button class="family-button1">Explore property</button>
+            <button class="family-button2">Contact agent ></button>
+          </div>
+        </div>
+        <div class="family-comfort-img">
+          <img
+            class="img-for-fc"
+            src="./Images/IMAGEfamily comfort.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- end  -->
+      <!-- Fast forward process  -->
+      <div class="fast-forward">
+        <div class="forward-img">
+          <img
+            class="img-for-forward"
+            src="./Images/IMAGEfast_forward.png"
+            alt=""
+          />
+        </div>
+        <div class="forward-text">
+          <div class="quick">
+            <p>Quick and easy</p>
+          </div>
+          <h2 class="generic-title">Fast forward process</h2>
+          <p class="family-descript">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            facere tempore, porro odio dolorum asperiores?
+          </p>
+          <div class="forward-process">
+            <div class="affordable-price">
+              <img src="./Images/Frameaff-price.png" alt="" />
+              <h4 class="process-title">Affordable price</h4>
+              <p class="process-descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                ullam unde numquam repudiandae? Ratione, repellendus.
+              </p>
+            </div>
+            <div class="less-paper-work">
+              <img src="./Images/Framelesspapper.png" alt="" />
+              <h4 class="process-title">Less paper work</h4>
+              <p class="process-descript">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis harum sed quo vero tempore exercitationem.
+              </p>
+            </div>
+          </div>
+          <div class="family-buttons">
+            <button class="family-button1">Explore property</button>
+            <button class="family-button2">Contact agent ></button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Fast forward process -->
+      <!-- Houses in your favourite area -->
+      <div class="houses-box">
+        <img
+          class="right-top"
+          src="./Images/Vectorright-top-stair.png"
+          alt=""
+        />
+        <img
+          class="left-bottom"
+          src="./Images/Vectorleft-bottom-stairs.png"
+          alt=""
+        />
+        <div class="houses-header">
+          <div class="house-properties">
+            <p>Properties</p>
+          </div>
+          <h2 class="generic-title">Houses in your favorite area</h2>
+          <div class="houses-row1">
+            <div class="cozy-studio">
+              <img
+                class="cozy-studio-img"
+                src="./Images/IMAGElosangeles.png"
+                alt=""
+              />
+              <div class="houses-texts">
+                <h4 class="houses-title">Cozy studio in Los Angeles</h4>
+                <p class="houses-price">$ 1,200.00 USD</p>
+                <div class="houses-adress">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>2263 Southlea, Los Angeles</p>
+                </div>
+                <div class="houses-utility">
+                  <div class="utility">
+                    <i class="fa-solid fa-bath"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <p>840 sqft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cozy-studio">
+              <img
+                class="cozy-studio-img"
+                src="./Images/IMAGEsandiego.png"
+                alt=""
+              />
+              <div class="houses-texts">
+                <h4 class="houses-title">Tiny Home in San Diego</h4>
+                <p class="houses-price">$ 1,200.00 USD</p>
+                <div class="houses-adress">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>2263 Southlea, Los Angeles</p>
+                </div>
+                <div class="houses-utility">
+                  <div class="utility">
+                    <i class="fa-solid fa-bath"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <p>840 sqft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cozy-studio">
+              <img
+                class="cozy-studio-img"
+                src="./Images/IMAGEcrown.png"
+                alt=""
+              />
+              <div class="houses-texts">
+                <h4 class="houses-title">Crown house in New York</h4>
+                <p class="houses-price">$ 1,200.00 USD</p>
+                <div class="houses-adress">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>2263 Southlea, Los Angeles</p>
+                </div>
+                <div class="houses-utility">
+                  <div class="utility">
+                    <i class="fa-solid fa-bath"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <p>840 sqft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="houses-row2">
+            <div class="cozy-studio">
+              <img
+                class="cozy-studio-img"
+                src="./Images/IMAGEfamily house in LA.png"
+                alt=""
+              />
+              <div class="houses-texts">
+                <h4 class="houses-title">Family house in Los Angeles</h4>
+                <p class="houses-price">$ 1,200.00 USD</p>
+                <div class="houses-adress">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>2263 Southlea, Los Angeles</p>
+                </div>
+                <div class="houses-utility">
+                  <div class="utility">
+                    <i class="fa-solid fa-bath"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <p>840 sqft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cozy-studio">
+              <img
+                class="cozy-studio-img"
+                src="./Images/IMAGESTUDIO IN LV.png"
+                alt=""
+              />
+              <div class="houses-texts">
+                <h4 class="houses-title">Studio in Las Vegas</h4>
+                <p class="houses-price">$ 1,200.00 USD</p>
+                <div class="houses-adress">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>2263 Southlea, Los Angeles</p>
+                </div>
+                <div class="houses-utility">
+                  <div class="utility">
+                    <i class="fa-solid fa-bath"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <p>840 sqft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cozy-studio">
+              <img
+                class="cozy-studio-img"
+                src="./Images/IMAGESTORY SAN DIEGO.png"
+                alt=""
+              />
+              <div class="houses-texts">
+                <h4 class="houses-title">San Diego story</h4>
+                <p class="houses-price">$ 1,200.00 USD</p>
+                <div class="houses-adress">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>2263 Southlea, Los Angeles</p>
+                </div>
+                <div class="houses-utility">
+                  <div class="utility">
+                    <i class="fa-solid fa-bath"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-bed"></i>
+                    <p>2</p>
+                  </div>
+                  <div class="utility">
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <p>840 sqft</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="family-buttons">
+            <button class="family-button1">Explore property</button>
+            <button class="family-button2">Contact agent ></button>
+          </div>
+        </div>
+      </div>
+      <!-- End of houses -->
+      <!-- Locations -->
+      <div class="locations">
+        <h2 class="generic-title">Locations</h2>
+        <p class="location-descript">
+          Nunc mi ante, fringilla eget iaculis et, lskfvkm aljelw lfpwpdd',;r
+          maximus vel purus integer lacus urna, aliquet non nisl sit amet.
+        </p>
+        <div class="locations-blok">
+          <div class="location-row1">
+            <div class="loc-1">
+              <h6 class="location-name">San Francisco, CA</h6>
+              <p class="location-property">View properties ></p>
+            </div>
+            <div class="loc-1">
+              <h6 class="location-name">Los Angeles, CA</h6>
+              <p class="location-property">View properties ></p>
+            </div>
+            <div class="loc-1">
+              <h6 class="location-name">San Diego, CA</h6>
+              <p class="location-property">View properties ></p>
+            </div>
+          </div>
+          <div class="location-row2">
+            <div class="loc-1">
+              <h6 class="location-name">New York, NY</h6>
+              <p class="location-property">View properties ></p>
+            </div>
+            <div class="loc-1">
+              <h6 class="location-name">Las Vegas, LV</h6>
+              <p class="location-property">View properties ></p>
+            </div>
+            <div class="loc-1">
+              <h6 class="location-name">Miami, FL</h6>
+              <p class="location-property">View properties ></p>
+            </div>
+          </div>
+        </div>
+        <div class="family-buttons">
+          <button class="family-button1">Explore property</button>
+          <button class="family-button2">Contact agent ></button>
+        </div>
+      </div>
+      <!-- End of Locations -->
+      <!-- What customers say -->
+      <div class="top-background">
+        <div class="white-background">
+          <div class="family-priority">
+            <img class="family-icon" src="./Images/Framefamily.png" alt="" />
+            <h2 class="generic-title">Families are our priority</h2>
+            <p class="family-descript">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis rem, eius repudiandae ducimus necessitatibus deleniti
+              consequatur maiores dolorum totam iusto!
+            </p>
+            <button class="get-started">Get started</button>
+          </div>
+          <div class="customers-say">
+            <h2 class="generic-title customers">What customers say</h2>
+            <p class="customers-descript">
+              Faucibus orci luctus et ultrices posuere cubilia curae.
+            </p>
+            <div class="review-box">
+              <div class="box-1">
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                </div>
+                <p class="review">
+                  "Aliquam erat volutpat. Nulla pretium nec urna et convallis.
+                  Ut varius mi lacus, nec molestie libero ultricies nec. Aenean
+                  lacinia dui elit, ut gravida quam."
+                </p>
+                <div class="review-person">
+                  <img class="webb-img" src="./Images/IMAGEwebb.png" alt="" />
+                  <div class="person-name">
+                    <h6>Michael Webb</h6>
+                    <p class="webb">Customer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="box-1">
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                </div>
+                <p class="review">
+                  "Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Morbi pretium iaculis
+                  ultricies. Aenean in leo vitae tortor."
+                </p>
+                <div class="review-person">
+                  <img class="webb-img" src="./Images/IMAGEkeene.png" alt="" />
+                  <div class="person-name">
+                    <h6>Amber Keene</h6>
+                    <p class="webb">Customer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="box-1">
+                <div class="stars">
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                  <i class="fa-solid fa-star" style="color: #fcb502"></i>
+                </div>
+                <p class="review">
+                  "Condimentum viverra orci. Pellentesque suscipit odio nisl,
+                  non ultricies purus mattis eget. In placerat, lorem a sodales
+                  ullamcorper, eros nibh laoreet nisl."
+                </p>
+                <div class="review-person">
+                  <img
+                    class="webb-img"
+                    src="./Images/IMAGEtarleton.png"
+                    alt=""
+                  />
+                  <div class="person-name">
+                    <h6>Sarah Tarleton</h6>
+                    <p class="webb">Customer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of what customers say -->
+      <!-- Latest posts -->
+      <div class="post-box">
+        <div class="post-box-contents">
+          <div class="blog">
+            <p>Blog</p>
+          </div>
+          <h2 class="generic-title">Latest posts</h2>
+          <div class="post-descript">
+            <p>
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia curae. Praesent efficitur nibh massa morbi
+              sagittis ornare dui in ornare.
+            </p>
+            <button class="view-all">View all</button>
+          </div>
+          <div class="latest-box">
+            <div class="home-posts">
+              <img class="cozy-LA" src="./Images/IMAGElosangeles.png" alt="" />
+              <div class="post-texts">
+                <div class="post-status">
+                  <div class="trends">Trends</div>
+                  <p>May 10, 2022</p>
+                </div>
+                <h4 class="home-title">The 9 best homes in New York</h4>
+                <p class="home-descript">
+                  Integer tincidunt rutrum faucibus. Proin sit amet varius arcu.
+                  Aliquam vel leo augue donec.
+                </p>
+                <button class="read-more">Read more ></button>
+              </div>
+            </div>
+            <div class="home-posts">
+              <img class="cozy-LA" src="./Images/IMAGEsandiego.png" alt="" />
+              <div class="post-texts">
+                <div class="post-status">
+                  <div class="trends">DIY</div>
+                  <p>May 10, 2022</p>
+                </div>
+                <h4 class="home-title">
+                  How to easily buy a house with Realco
+                </h4>
+                <p class="home-descript">
+                  Praesent nec felis nisl. Phasellus eget lacus a metus
+                  fringilla fermentum sit amet.
+                </p>
+                <button class="read-more">Read more ></button>
+              </div>
+            </div>
+            <div class="home-posts">
+              <img class="cozy-LA" src="./Images/IMAGEcrown.png" alt="" />
+              <div class="post-texts">
+                <div class="post-status">
+                  <div class="trends">DIY</div>
+                  <p>May 10, 2022</p>
+                </div>
+                <h4 class="home-title">Renting houses - complete guide</h4>
+                <p class="home-descript">
+                  Integer tincidunt rutrum faucibus. Proin sit amet varius arcu.
+                  Aliquam vel leo augue donec.
+                </p>
+                <button class="read-more">Read more ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of latest houses -->
+      <!-- Footer -->
+      <div class="footer">
+        <div class="footer-nav">
+          <div class="footer-contents">
+            <div class="footer-left">
+              <div class="footer-column1">
+                <div class="footer-column1-box">
+                  <img
+                  class="main-logo"
+                  src="./Images/Vectormainicon (1).png"
+                  alt=""
+                />
+                <p class="logo-name">Realco</p>
+                </div>
+              </div>
+              <div class="footer-column2">
+                <p>Pages</p>
+                <p>Home</p>
+                <p>About</p>
+                <p>Blog</p>
+                <p>Agents</p>
+                <p>Contact</p>
+                <p>FAQs</p>
+                <p>Properties</p>
+              </div>
+              <div class="footer-column3">
+                <p>CMS Pages</p>
+                <p>Property</p>
+                <p>Property Single</p>
+                <p>Blog Categories</p>
+                <p>Blog single</p>
+                <p>Agent Single</p>
+              </div>
+              <div class="footer-column4">
+                <p>Utility Pages</p>
+                <p>Stile Guide</p>
+                <p>Changelog</p>
+                <p>Licenses</p>
+                <p>404</p>
+                <p>Password</p>
+                <p>Search</p>
+              <div></div>
+            </div>
+          </div>
+          <div class="footer-right">
+            <p class="subscribe">Subscribe</p>
+            <p class="join">Join our newsletter to stay up to date on features and releases.</p>
+            <div class="newsletter-box">
+              <input class="email" type="email" placeholder="Enter your email">
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+            <div class="subscription-agreement">
+              <p class="privacy">By subscribing you agree to with our</p>
+              <p class="privacy">Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left">
+            <div class="copyright">
+              <i
+                class="fa-regular fa-copyright"
+                style="color: rgba(101, 102, 92, 1)"
+              ></i>
+            </div>
+            <p>Realco by</p>
+            <p>Minimal Square.</p>
+          </div>
+          <div class="media-right">
+            <i class="fa-brands fa-facebook-f" style="color: #0b0b0b"></i>
+            <i class="fa-brands fa-instagram" style="color: #0b0b0b"></i>
+            <i class="fa-brands fa-twitter" style="color: #0b0b0b"></i>
+            <i class="fa-brands fa-linkedin" style="color: #0b0b0b"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
