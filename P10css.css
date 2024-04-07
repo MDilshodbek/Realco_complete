@@ -5,7 +5,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
 }
 .generic-title {
@@ -348,6 +348,7 @@ svg {
   width: 90%;
   margin: auto;
   display: flex;
+  justify-content: space-between;
   gap: 80px;
   margin-top: 128px;
 }
@@ -367,9 +368,15 @@ svg {
   margin-top: 141px;
   margin-bottom: 20px;
 }
+.houseComfort {
+  width: 60%;
+}
 .family-descript {
+  display: flex;
+  justify-content: left;
+  text-align: left;
   font-size: 18px;
-  line-height: 27px;
+  /* line-height: 27px; */
   margin-top: 28px;
   margin-bottom: 21px;
 }
@@ -403,8 +410,9 @@ svg {
   flex: 1;
 }
 .img-for-fc {
-  width: 600px;
-  height: 600px;
+  margin: auto;
+  /* width: 600px;
+  height: 600px; */
 }
 /* end */
 /* Fast forward process */
@@ -501,6 +509,7 @@ svg {
   justify-content: center;
   align-items: center;
   width: 90%;
+  margin: auto;
 }
 .house-properties {
   display: flex;
@@ -531,10 +540,7 @@ svg {
   flex-direction: column;
   flex: 1;
 }
-.cozy-studio-img {
-  width: 405px;
-  height: 268px;
-}
+
 .houses-texts {
   display: flex;
   flex-direction: column;
@@ -683,7 +689,6 @@ svg {
 .family-descript {
   font-size: 18px;
   line-height: 27px;
-  text-align: center;
   width: 70%;
   margin: auto;
   margin: 29px 0 21px 0;
